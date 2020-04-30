@@ -1,0 +1,40 @@
+* {
+    padding: 0px; 
+    margin: 0px; 
+    box-sizing: border-box;  /* this adds the width and border to itself so you dont have to calculate it*/
+}
+
+body {
+    background: url(./clock.img); 
+}
+
+.main {
+    background: grey; 
+    width: 400px; 
+    height: 175px;
+    margin: 100px auto;    /* centers it */ 
+    position: relative;    /* this starts the bage element in the top right of the main box*/ 
+    padding: 30px; 
+}
+
+.badge { 
+    background: red; 
+    color: white; 
+    padding: 5px 10px;
+    font-family: arial; 
+    font-weight: bold; 
+    width: 80px; 
+    position: absolute; 
+    top: -12px; 
+    left: 40%; 
+}
+
+.clock { 
+    background: white;
+    text-align: center; 
+    font-family: arial; 
+    font-size: 50px;
+    height: 100%; 
+    padding-top: 25px;
+    font-family: fantasy; 
+}
